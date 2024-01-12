@@ -1,5 +1,3 @@
-// Assuming you have already included the speedtest.js library in your project
-
 function updateSpeedTestResults(result) {
   const speedTestContainer = document.getElementById('speedTest');
 
