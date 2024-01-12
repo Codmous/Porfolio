@@ -5,20 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Append Text Content</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="workshop.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body class="theme">
-    <div id="apisPost" class="border w3-round-xxlarge w3-text-cyan w3-padding-small w3-small w3-bar-block w3-margin">
-        Lorem
+    <div id="apisPost" class="border side w3-round-small w3-text-cyan w3-small w3-bar-block w3-margin">
+        <div class="container">
+            <p id="singleLine"><span>Pinging your internet: <span id="actualSpeedValue">...</span></span></p>
+        </div>
     </div>
-    <p id="appendedText" class="w3-text-cyan w3-padding-small w3-margin w3-monospace"></p>
+    <p id="appendedText" class="w3-text-cyan w3-padding-small w3-margin w3-small"></p>
     <div class="w3-margin ">
         <label for="userInput" class="w3-text-red">:~$</label>
         <input class="w3-border-0 w3-text-red theme w3-padding-small w3-hover-border-" type="text" id="userInput" placeholder="" name="userInput">    
     </div>
     <script src="workshop_2.js"></script>
+    <script src="speedTest_2.js"></script>
 </body>
 
 </html>
